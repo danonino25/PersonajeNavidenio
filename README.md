@@ -19,12 +19,19 @@ Angel con Coro Celestial
 
 # Circuito en wokwi de los componentes electronicos conectados
 Circuito de los leds que seran colocados en la parte de la nube mandando pequeños relampagos de luz blanca:
+
 ![image](https://github.com/danonino25/PersonajeNavidenio/assets/116208398/3896cf5d-e03a-46a2-9dc1-40ca80c3e63d)
+
 Circuito del motor servo que controlará el movimiento de las alas del angel:
+
 ![image](https://github.com/danonino25/PersonajeNavidenio/assets/116208398/0f3e7187-bd71-481d-ac5f-33e8dd06880a)
+
 Circuito de la microbocina que reproducirá los villancicos:
+
 ![image](https://github.com/danonino25/PersonajeNavidenio/assets/116208398/1972b424-c15d-432c-90a9-aab5b3313cee)
+
 Circuito de la pantalla oled mediante la cual se enviaran mensajes navideños dedicado a un usuario:
+
 ![image](https://github.com/danonino25/PersonajeNavidenio/assets/116208398/9e5fb99e-f8e2-4a8b-97ef-63234ee9a77b)
 
 
