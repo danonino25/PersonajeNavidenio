@@ -12,6 +12,23 @@ Angel con Coro Celestial
 |--|--|--|--|
 | ESP32 | Microcontrolador con 30 pines con comunicación WiFi y bluetooth|1 |$ 140.00|
 |Cables Dupont| Cables para conexión de prototipos de pruebas | 50 |$50.00|
+|Motor a pasos | Motor a pasos unipolar con driver ULN2003 | 1 |$200.00|
+|Pantalla Oled| Pantalla OLED, 1pc 1.3 pulgadas Módulo de pantalla OLED IIC | 1 |$131.00|
+|Zumbador| Hilitand Zumbador piezoeléctrico de la Alarma de 3-24V DC|1|$82.00|
+
+
+# Circuito en wokwi de los componentes electronicos conectados
+Circuito de los leds que seran colocados en la parte de la nube mandando pequeños relampagos de luz blanca:
+![image](https://github.com/danonino25/PersonajeNavidenio/assets/116208398/3896cf5d-e03a-46a2-9dc1-40ca80c3e63d)
+Circuito del motor servo que controlará el movimiento de las alas del angel:
+![image](https://github.com/danonino25/PersonajeNavidenio/assets/116208398/0f3e7187-bd71-481d-ac5f-33e8dd06880a)
+Circuito de la microbocina que reproducirá los villancicos:
+![image](https://github.com/danonino25/PersonajeNavidenio/assets/116208398/1972b424-c15d-432c-90a9-aab5b3313cee)
+Circuito de la pantalla oled mediante la cual se enviaran mensajes navideños dedicado a un usuario:
+![image](https://github.com/danonino25/PersonajeNavidenio/assets/116208398/9e5fb99e-f8e2-4a8b-97ef-63234ee9a77b)
+
+
+
 
 # Software a utilizar 
 
