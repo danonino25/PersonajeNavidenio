@@ -44,6 +44,7 @@ Circuito de la pantalla oled mediante la cual se enviaran mensajes navideños de
 | Thonny | 4.2.1 | Software libre|
 |SSD1602| 1.8.1 |Software libre|
 |Mosquitto MQTT| 2.0.18 |Software libre|
+|Node RED| 3.1.0 |Software libre|
 
 # Protitipo en dibujo
 ![image](https://github.com/danonino25/PersonajeNavidenio/assets/116208398/68ab59dc-b2ba-465e-91b5-eedde4628fdd)
