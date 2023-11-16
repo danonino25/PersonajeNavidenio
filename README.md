@@ -10,7 +10,7 @@ Angel con Coro Celestial
 
 | Nombre del componente| Descripción| Cantidad| Precio|
 |--|--|--|--|
-| ESP32 | Microcontrolador con 30 pines con comunicación WiFi y bluetooth|1 |$ 140.00|
+|ESP32 | Microcontrolador con 30 pines con comunicación WiFi y bluetooth|1 |$ 140.00|
 |Cables Dupont| Cables para conexión de prototipos de pruebas | 50 |$50.00|
 |Motor a pasos | Motor a pasos unipolar con driver ULN2003 | 1 |$200.00|
 |Pantalla Oled| Pantalla OLED, 1pc 1.3 pulgadas Módulo de pantalla OLED IIC | 1 |$131.00|
