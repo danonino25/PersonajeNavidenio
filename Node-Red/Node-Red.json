@@ -1,0 +1,209 @@
+[
+    {
+        "id": "e42935c3514e366d",
+        "type": "tab",
+        "label": "PruebaLED",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "1b98179436641d94",
+        "type": "inject",
+        "z": "e42935c3514e366d",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "str",
+        "x": 130,
+        "y": 60,
+        "wires": [
+            [
+                "ffb91e4f49fb3672"
+            ]
+        ]
+    },
+    {
+        "id": "8f2cab5fc4aa53e1",
+        "type": "debug",
+        "z": "e42935c3514e366d",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 520,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "ffb91e4f49fb3672",
+        "type": "function",
+        "z": "e42935c3514e366d",
+        "name": "contador",
+        "func": "var contador = global.get('contador');\nglobal.set('contador', contador+=1);\nmsg.payload = contador;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "// Code added here will be run once\n// whenever the node is started.\nglobal.set('contador', 0);\n",
+        "finalize": "",
+        "libs": [],
+        "x": 320,
+        "y": 80,
+        "wires": [
+            [
+                "8f2cab5fc4aa53e1"
+            ]
+        ]
+    },
+    {
+        "id": "9f99ecad61fc47e2",
+        "type": "ui_switch",
+        "z": "e42935c3514e366d",
+        "name": "",
+        "label": "switch",
+        "tooltip": "",
+        "group": "ebd22fbe94aedb9f",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "1",
+        "onvalueType": "num",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "0",
+        "offvalueType": "num",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 390,
+        "y": 540,
+        "wires": [
+            [
+                "8f2cab5fc4aa53e1",
+                "777817a49b88ca74"
+            ]
+        ]
+    },
+    {
+        "id": "2f0f0a35f00eb824",
+        "type": "inject",
+        "z": "e42935c3514e366d",
+        "name": "inject",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 170,
+        "y": 580,
+        "wires": [
+            [
+                "9f99ecad61fc47e2"
+            ]
+        ]
+    },
+    {
+        "id": "777817a49b88ca74",
+        "type": "mqtt out",
+        "z": "e42935c3514e366d",
+        "name": "",
+        "topic": "NNAT/led",
+        "qos": "1",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "6aefed884463460d",
+        "x": 600,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "ebd22fbe94aedb9f",
+        "type": "ui_group",
+        "name": "Luces",
+        "tab": "baa8338a09b058f6",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "6aefed884463460d",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "broker.hivemq.com",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "arg/noah",
+        "birthQos": "1",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "baa8338a09b058f6",
+        "type": "ui_tab",
+        "name": "ProyectoNavidad ",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    }
+]
