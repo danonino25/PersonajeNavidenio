@@ -1,11 +1,11 @@
 # PersonajeAngel
 
-Integrantes : 
- 
-Ana María Barrientos Guerrero
-Miguel Alejandro Espinoza Guzmán 
-Everardo Guadalupe Torrez Tovar
-Emilio Antonio Placios Arvizu
+## Integrantes:
+
+- Ana María Barrientos Guerrero
+- Miguel Alejandro Espinoza Guzmán
+- Everardo Guadalupe Torrez Tovar
+- Emilio Antonio Placios Arvizu
 
 # Objetivo General
 
