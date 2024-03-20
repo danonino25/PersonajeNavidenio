@@ -1,10 +1,17 @@
 # PersonajeAngel
-Integrantes : 
-Noah Noel Arredondo Torres 
-Ana María Barrientos Guerrero
 
-# Nombre del Personaje
-Angel con Coro Celestial
+Integrantes : 
+ 
+Ana María Barrientos Guerrero
+Miguel Alejandro Espinoza Guzmán 
+Everardo Guadalupe Torrez Tovar
+Emilio Antonio Placios Arvizu
+
+# Objetivo General
+
+Desarrollar un prototipo con funcionalidad controlada por sensores y actuadores en base 
+ a las competencias obtenidas en IOT, que contenga las principales funciones como: comuncación,
+ sonido, luz y movimiento en las cuales se haga uso de 
 
 # Materiales a utilizar
 
