@@ -11,7 +11,8 @@
 
 Desarrollar un prototipo con funcionalidad controlada por sensores y actuadores en base 
  a las competencias obtenidas en IOT, que contenga las principales funciones como: comuncación,
- sonido, luz y movimiento en las cuales se haga uso de 
+ sonido, luz y movimiento en las cuales se haga uso de Node Red para el control del flujo de trabajo
+ con conexion remota via WI-fi  a un dispositivo móvil en el que se ejecuten las tareas a realizar por el prototipo.
 
 # Materiales a utilizar
 
