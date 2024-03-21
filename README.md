@@ -5,7 +5,7 @@
 - Ana María Barrientos Guerrero
 - Miguel Alejandro Espinoza Guzmán
 - Everardo Guadalupe Torrez Tovar
-- Emilio Antonio Placios Arvizu
+- Emilio Antonio Palacios Arvizu
 
 # Objetivo General
 
